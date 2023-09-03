@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Index Page</title>
+</head>
+
+<body>
+    <h1>HTML</h1>
+    <ul>
+        <li><a href="ASS_1.html">HTML File 1</a></li>
+        <li><a href="ASS_2.html">HTML File 2</a></li>
+        <li><a href="ASS_3.html">HTML File 3</a></li>
+        <li><a href="ASS_4.html">HTML File 4</a></li>
+        <li><a href="ASS_5.html">HTML File 5</a></li>
+    </ul>
+    <h2>CSS  (1-7)</h2>
+    <ul>
+        <li><a href="CSS_1.html">Link 1</a></li>
+        <li><a href="CSS_2.html">Link 2</a></li>
+        <li><a href="CSS_3.html">Link 3</a></li>
+        <li><a href="CSS_4.html">Link 4</a></li>
+        <li><a href="CSS_5.html">Link 5</a></li>
+        <li><a href="CSS_6.html">Link 6</a></li>
+        <li><a href="CSS_7.html">Link 7</a></li>
+    </ul>
+</body>
+
+</html>

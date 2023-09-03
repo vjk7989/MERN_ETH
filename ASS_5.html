@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Registration Form</title>
+</head>
+
+<body>
+    <h1>Registration Form</h1>
+    <form id="registrationForm" action="your_registration_script.php" method="POST">
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" required><br><br>
+
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <label for="confirmPassword">Re-enter Password:</label>
+        <input type="password" id="confirmPassword" name="confirmPassword" required><br><br>
+
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label><br><br>
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age"><br><br>
+
+        <label for="phoneNumber">Phone Number:</label>
+        <input type="tel" id="phoneNumber" name="phoneNumber"><br><br>
+
+        <label for="address">Address:</label>
+        <textarea id="address" name="address"></textarea><br><br>
+
+        <label for="state">State:</label>
+        <input type="text" id="state" name="state"><br><br>
+
+        <label for="country">Country:</label>
+        <input type="text" id="country" name="country"><br><br>
+
+        <label for="knownLanguages">Languages known:</label><br>
+        <input type="checkbox" id="english" name="knownLanguages[]" value="English">
+        <label for="english">English</label><br>
+
+        <input type="checkbox" id="kannada" name="knownLanguages[]" value="Kannada">
+        <label for="kannada">Kannada</label><br>
+
+        <input type="checkbox" id="hindi" name="knownLanguages[]" value="Hindi">
+        <label for="hindi">Hindi</label><br>
+
+        <input type="checkbox" id="telugu" name="knownLanguages[]" value="Telugu">
+        <label for="telugu">Telugu</label><br><br>
+
+        <label>
+            <input type="checkbox" id="declaration" name="declaration" required>
+            Hereby I declare all the given details are true
+        </label><br><br>
+
+        <input type="submit" value="Register">
+    </form>
+
+    <p>Already have an account? <a href="login.html">Log in to Ethnus website</a></p>
+</body>
+
+</html>
